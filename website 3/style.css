@@ -6,11 +6,13 @@
 }
 
 img{
+    display: flex;
     height: 5%;
     width: 2%;
     overflow: none;
     position: relative;
     left: 0px;
+    flex-wrap: nowrap;
 }
 
 nav{
@@ -57,9 +59,99 @@ button{
     float:right;
     position: relative;
     top: 0;
+    flex-wrap: wrap;
 }
 
 body{
     margin: 0;
     padding: auto;
 }
+
+.help{
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    width: 20%;
+    height: 20%;
+    overflow: hidden;
+    background-color: aquamarine;
+    border-radius: 50%;
+}
+
+.another{
+    display: flex;
+    position: relative;
+    top: 20%;
+    left: 15%;
+    width: 20%;
+    height: 20%;
+    overflow: hidden;
+    margin-right: 5px;
+    background-color: beige;
+    border-radius: 50%;
+}
+
+.image{
+    background-color: bisque;
+    overflow: hidden;
+}
+
+.help2{
+    display: flex;
+    position: relative;
+    top: 50%;
+    left: 10%;
+    width: 30%;
+    height: 20%;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+
+.dos{
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    width: 20%;
+    height: 20%;
+    overflow: hidden;
+    margin-right: 5px;
+    background-color: beige;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.tres{
+    display: flex;
+    position: relative;
+    left: 25%;
+    width: 50%;
+    height: 20%;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 50%  
+}
+
+.vines{
+    display: flex;
+    position: relative;
+    width: 20%;
+    height: 20%;
+    left: 15%;
+    border-radius: 50%;
+}
+
+.sat{
+    display: flex;
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 39%;
+    top: 96%;
+    border-radius: 50%;
+}
+
