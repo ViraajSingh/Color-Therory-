@@ -21,7 +21,7 @@ nav{
     justify-content: space-evenly;
     align-items: center;
     font-size: larger;
-    background-color: #7bc4e1;
+    background-color: rgb(79, 117, 64)
 }
 
 .set{
@@ -189,16 +189,13 @@ a:hover{
 }
 
 .footer{
-        background-color: #a2ba67;
-        display: flex;
-        bottom: -12px;
-        margin-top:210px ;
-        margin-bottom: 0px;
-        height: 110px;
-        justify-content: center;
-        align-content: center;
-        text-align: center;
-        flex-wrap: wrap;
+    display: flex;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    background-color: #a2ba67;
+
 }
 
 #flowers:hover{
@@ -221,4 +218,9 @@ a:hover{
 #number:hover{
     background-color: #38331f;
     color: white; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
 }
